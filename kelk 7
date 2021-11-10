@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>web desain</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+/* Style the footer */
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ccc;
+   color: white;
+   text-align: center;
+}
+
+* {box-sizing: border-box;}
+
+header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px 10px;
+}
+
+header a logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header a {
+  background-color: #ddd;
+  color: black;
+}
+
+header-right {
+  float: right;
+}
+body {
+        margin: 0;
+        padding: 0;
+    }
+ 
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+    }
+ 
+
+    fixed-header,
+    fixed-footer {
+        width: 100%;
+        position: fixed;
+        background: #333;
+        padding: 5px;
+        color: #fff;
+    }
+  .right{
+    float: right;
+    display: block;
+  }
+.button ul a{
+  padding: 10px;
+  background: #ccc;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+ <header>
+  <h1>Logo</h1>
+
+<div class="button">
+  <ul class="right">
+    <a href="#">Home</a>
+    <a href="#">Tempat Wisata</a>
+    <a href="#">Budaya</a>
+    <a href="#">Kuliner</a>
+  </ul>
+</div>
+</header>
+<h2> gambar</h2>
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
